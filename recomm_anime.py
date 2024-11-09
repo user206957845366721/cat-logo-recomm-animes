@@ -18,7 +18,7 @@ st.image(image="separador.png", use_column_width='auto')
 
 def one_piece():
     st.title("One Piece")
-    st.image(image="https://github.com/user206957845366721/cat-logo-recomm-animes/blob/main/one-piece.jpg", width=None)
+    st.image(image="one-piece.jpg", width=None)
     st.write("Escrever sobre one piece aqui.")
 
 def about_page():
