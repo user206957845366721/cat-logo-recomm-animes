@@ -17,6 +17,10 @@ st.write("Seja muito bem-vindo, ou vinda, ao meu site pessoal de recomendações
 st.image(image="separador.png", use_column_width='auto')
 
 def one_piece():
+    rating= 5
+    full_stars = "⭐" * rating
+    empty_stars = "⭕" * (5 - rating)
+    stars = full_stars + empty_stars
     st.title("One Piece")
     st.image(image="one-piece.jpg", width=None)
     st.write("Escrever sobre one piece aqui.")
