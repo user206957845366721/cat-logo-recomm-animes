@@ -32,7 +32,7 @@ def megami_sama():
     empty_stars = "⭕" * (5 - rating)
     stars = full_stars + empty_stars
     st.title("A! Megami Sama!")
-    st.image(image="megamisama.png", width=None)
+    st.image(image="megami-sama.png", width=None)
     st.write(stars)
     st.write("Escrever sobre megami sama aqui.")
 
