@@ -15,7 +15,5 @@ st.set_page_config(
 st.title("Olá!")
 st.write("Seja muito bem-vindo, ou vinda, ao meu site pessoal de recomendações de animes. Este site está sendo produzido para resguardar a criadora de recuperações e possíveis DPs. Espero que goste!")
 st.sidebar.success("Select a page above.")
-def page_2():
-    st.title("Page 2")
-pg = st.navigation([st.Page("page_1.py"), st.Page(page_2)])
-pg.run()
+
+st.Pages(st.title("Page 1"))
