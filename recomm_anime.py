@@ -117,7 +117,7 @@ def sword_art():
     st.write("Escrever sobre sword art aqui.")
 
 
-page = st.sidebar.selectbox("Select a page", ["One Piece", "A! Megami Sama!", "Taihou Shichauzo/You're Under Arrest!", "Akage no Ann", "Cardcaptor Sakura", "Dragon Ball", "Inuyasha", "Naruto (Clássico)", "Dungeon Meshi", "Sword Art Online"])
+page = st.sidebar.selectbox("Sobre qual anime você quer ler?", ["One Piece", "A! Megami Sama!", "Taihou Shichauzo/You're Under Arrest!", "Akage no Ann", "Cardcaptor Sakura", "Dragon Ball", "Inuyasha", "Naruto (Clássico)", "Dungeon Meshi", "Sword Art Online"])
 
 if page == "One Piece":
     one_piece()
