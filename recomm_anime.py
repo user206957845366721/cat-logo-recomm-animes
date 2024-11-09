@@ -17,7 +17,7 @@ st.write("Seja muito bem-vindo, ou vinda, ao meu site pessoal de recomendações
 st.image(image="separador.png", use_column_width='auto')
 
 def one_piece():
-    rating= 3
+    rating= 5
     full_stars = "⭐" * rating
     empty_stars = "⭕" * (5 - rating)
     stars = full_stars + empty_stars
@@ -26,15 +26,98 @@ def one_piece():
     st.write(stars)
     st.write("Escrever sobre one piece aqui.")
 
-def about_page():
-    st.title("About Page")
-    st.write("This is the about page.")
+def megami_sama():
+    rating= 5
+    full_stars = "⭐" * rating
+    empty_stars = "⭕" * (5 - rating)
+    stars = full_stars + empty_stars
+    st.title("A! Megami Sama!")
+    st.image(image="megamisama.png", width=None)
+    st.write(stars)
+    st.write("Escrever sobre megami sama aqui.")
 
-def contact_page():
-    st.title("Contact Page")
-    st.write("This is the contact page.")
+def taihou_shichauzo():
+    rating= 5
+    full_stars = "⭐" * rating
+    empty_stars = "⭕" * (5 - rating)
+    stars = full_stars + empty_stars
+    st.title("Taihou Shichauzo/You're Under Arrest!")
+    st.image(image="taihou-shichauzo.jpg", width=None)
+    st.write(stars)
+    st.write("Escrever sobre taihou shichauzo aqui.")
 
-page = st.sidebar.selectbox("Select a page", ["One Piece", "About", "Contact"])
+def akage_ann():
+    rating= 5
+    full_stars = "⭐" * rating
+    empty_stars = "⭕" * (5 - rating)
+    stars = full_stars + empty_stars
+    st.title("Akage no Ann")
+    st.image(image="akage-no-ann.jpg", width=None)
+    st.write(stars)
+    st.write("Escrever sobre akage aqui.")
+
+def cardcaptor_sakura():
+    rating= 5
+    full_stars = "⭐" * rating
+    empty_stars = "⭕" * (5 - rating)
+    stars = full_stars + empty_stars
+    st.title("Cardcaptor Sakura")
+    st.image(image="cardcaptor-sakura.jpg", width=None)
+    st.write(stars)
+    st.write("Escrever sobre sakura aqui.")
+
+def dragon_ball():
+    rating= 5
+    full_stars = "⭐" * rating
+    empty_stars = "⭕" * (5 - rating)
+    stars = full_stars + empty_stars
+    st.title("Dragon Ball")
+    st.image(image="dragon-ball.jpg", width=None)
+    st.write(stars)
+    st.write("Escrever sobre dragon ball aqui.")
+
+def inuyasha():
+    rating= 5
+    full_stars = "⭐" * rating
+    empty_stars = "⭕" * (5 - rating)
+    stars = full_stars + empty_stars
+    st.title("Inuyasha")
+    st.image(image="inuyasha.jpg", width=None)
+    st.write(stars)
+    st.write("Escrever sobre inuyasha aqui.")
+
+def naruto():
+    rating= 5
+    full_stars = "⭐" * rating
+    empty_stars = "⭕" * (5 - rating)
+    stars = full_stars + empty_stars
+    st.title("Naruto (Clássico)")
+    st.image(image="naruto.jpg", width=None)
+    st.write(stars)
+    st.write("Escrever sobre naruto aqui.")
+
+def dungeon_meshi():
+    rating= 5
+    full_stars = "⭐" * rating
+    empty_stars = "⭕" * (5 - rating)
+    stars = full_stars + empty_stars
+    st.title("Dungeon Meshi")
+    st.image(image="dungeon-meshi.png", width=None)
+    st.write(stars)
+    st.write("Escrever sobre dungeon meshi aqui.")
+
+def sword_art():
+    rating= 5
+    full_stars = "⭐" * rating
+    empty_stars = "⭕" * (5 - rating)
+    stars = full_stars + empty_stars
+    st.title("Sword Art Online")
+    st.image(image="sword-art.jpg", width=None)
+    st.write(stars)
+    st.write("Escrever sobre sword art aqui.")
+
+
+page = st.sidebar.selectbox("Select a page", ["One Piece", "A! Megami Sama!", "Taihou Shichauzo/You're Under Arrest!", "Akage no Ann", "Cardcaptor Sakura", "Dragon Ball", "Inuyasha", "Naruto", "Dungeon Meshi", "Sword Art Online"])
 
 if page == "One Piece":
     one_piece()
