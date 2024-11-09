@@ -117,11 +117,28 @@ def sword_art():
     st.write("Escrever sobre sword art aqui.")
 
 
-page = st.sidebar.selectbox("Select a page", ["One Piece", "A! Megami Sama!", "Taihou Shichauzo/You're Under Arrest!", "Akage no Ann", "Cardcaptor Sakura", "Dragon Ball", "Inuyasha", "Naruto", "Dungeon Meshi", "Sword Art Online"])
+page = st.sidebar.selectbox("Select a page", ["One Piece", "A! Megami Sama!", "Taihou Shichauzo/You're Under Arrest!", "Akage no Ann", "Cardcaptor Sakura", "Dragon Ball", "Inuyasha", "Naruto (Clássico)", "Dungeon Meshi", "Sword Art Online"])
 
 if page == "One Piece":
     one_piece()
-elif page == "About":
-    about_page()
-elif page == "Contact":
-    contact_page()
+elif page == "A! Megami Sama!":
+    megami_sama()
+elif page == "Taihou Shichauzo/You're Under Arrest!":
+    taihou_shichauzo()
+elif page == "Akage no Ann":
+    akage_ann()
+elif page == "Cardcaptor Sakura":
+    cardcaptor_sakura()
+elif page == "Dragon Ball":
+    dragon_ball()
+elif page == "Inuyasha":
+    inuyasha()
+elif page == "Naruto (Clássico)":
+    naruto()
+elif page == "Dungeon Meshi":
+    dungeon_meshi()
+elif page == "Sword Art Online":
+    sword_art()
+
+#END OF THE CODE.
+    
