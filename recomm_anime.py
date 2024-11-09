@@ -20,7 +20,7 @@ def teste_1():
     st.title("Teste 1")
     st.write("Teste.")
 
-def teste_2()
+def teste_2():
 st.title("Teste 2")
 st.write("Teste.")
 
