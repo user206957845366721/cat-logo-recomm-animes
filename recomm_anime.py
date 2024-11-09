@@ -17,7 +17,7 @@ st.write("Seja muito bem-vindo, ou vinda, ao meu site pessoal de recomendações
 st.image(image="separador.png", use_column_width='auto')
 
 def one_piece():
-    rating= 5
+    rating= 3
     full_stars = "⭐" * rating
     empty_stars = "⭕" * (5 - rating)
     stars = full_stars + empty_stars
