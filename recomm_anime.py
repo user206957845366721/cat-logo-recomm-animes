@@ -6,8 +6,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
     menu_items={
-        'Get Help': 'https://www.extremelycoolapp.com/help',
-        'Report a bug': "https://www.extremelycoolapp.com/bug",
+        'Créditos': 'https://github.com/user206957845366721',
         'About': "# This is a header. This is an *extremely* cool app!"
     }
 )
