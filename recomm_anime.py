@@ -60,7 +60,7 @@ def akage_ann():
     st.write("Escrever sobre akage aqui.")
 
 def cardcaptor_sakura():
-    rating= 5
+    rating= 0
     full_stars = "⭐" * rating
     empty_stars = "⭕" * (5 - rating)
     stars = full_stars + empty_stars
