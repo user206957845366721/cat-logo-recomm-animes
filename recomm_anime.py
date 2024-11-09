@@ -16,12 +16,11 @@ st.title("Olá!")
 st.write("Seja muito bem-vindo, ou vinda, ao meu site pessoal de recomendações de animes. Este site está sendo produzido para resguardar a criadora de recuperações e possíveis DPs. Espero que goste!")
 st.image(image="separador.png", use_column_width='auto')
 
-full_stars = "⭐" * rating
-empty_stars = "⭕" * (5 - rating)
-stars = full_stars + empty_stars
-
 def one_piece():
     rating= 5
+    full_stars = "⭐" * rating
+    empty_stars = "⭕" * (5 - rating)
+    stars = full_stars + empty_stars
     st.title("One Piece")
     st.write(stars)
     st.image(image="one-piece.jpg", width=None)
@@ -29,6 +28,9 @@ def one_piece():
 
 def megami_sama():
     rating= 5
+    full_stars = "⭐" * rating
+    empty_stars = "⭕" * (5 - rating)
+    stars = full_stars + empty_stars
     st.title("A! Megami Sama!")
     st.write(stars)
     st.image(image="megamisama.png", width=None)
@@ -36,12 +38,18 @@ def megami_sama():
 
 def taihou_shichauzo():
     rating= 5
+    full_stars = "⭐" * rating
+    empty_stars = "⭕" * (5 - rating)
+    stars = full_stars + empty_stars
     st.image(image="taihou-shichauzo.jpg", width=None)
     st.title("Taihou Shichauzo/You're Under Arrest!")
     st.write("Escrever sobre  aqui.")
 
 def akage_ann():
     rating= 5
+    full_stars = "⭐" * rating
+    empty_stars = "⭕" * (5 - rating)
+    stars = full_stars + empty_stars
     st.image(image="akage-no-ann.jpg", width=None)
     st.title("Akage no Ann")
     st.write("Escrever sobre  aqui.")
