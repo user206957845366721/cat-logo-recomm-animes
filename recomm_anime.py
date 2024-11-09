@@ -20,5 +20,6 @@ pages = {
     "user206957845366721": [
         st.Page("Page1.py", title="Teste"),
     ]
+}
 pg = st.navigation(pages)
 pg.run()
