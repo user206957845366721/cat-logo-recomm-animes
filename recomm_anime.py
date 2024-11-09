@@ -25,7 +25,7 @@ def ateste_2():
     st.write("This is the teste2.")
 page = st.sidebar.selectbox("De qual anime você quer ler sobre?", ["Teste 1", "Teste 2"])
 
-if page == "Teste 1"
+if page == "Teste 1":
     teste_1()
-elif page == "Teste 2"
+elif page == "Teste 2":
     teste_2()
