@@ -8,7 +8,7 @@ st.set_page_config(
     menu_items={
         'Get Help': 'https://www.extremelycoolapp.com/help',
         'Report a bug': "https://www.extremelycoolapp.com/bug",
-        'About': "# This is a header. This is an *extremely* cool app!"
+        'About': "# Site reserva - Trabalho de Programação - Engenharia Civil - 4º Semestre de 2024"
     }
 )
 
@@ -52,7 +52,7 @@ def akage_ann():
     empty_stars = "⭕" * (5 - rating)
     stars = full_stars + empty_stars
     st.title("Akage no Ann")
-    st.image(image="akage-no-ann.jpg", use_column_width='auto')
+    st.image(image="akage-no-ann.jpg", width=1000)
     st.write(stars)
     st.write("Escrever sobre akage aqui.")
 
