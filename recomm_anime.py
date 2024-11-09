@@ -31,7 +31,7 @@ def megami_sama():
     rating= 5
     st.title("A! Megami Sama!")
     st.write(stars)
-    st.image("megamisama.png", width=None)
+    st.image(image="megamisama.png", width=None)
     st.write("Escrever sobre  aqui.")
 
 def taihou_shichauzo():
@@ -42,7 +42,7 @@ def taihou_shichauzo():
 
 def akage_ann():
     rating= 5
-    st.image(image="akage-no-ann.jpg", use _column_width='auto')
+    st.image(image="akage-no-ann.jpg", width=None)
     st.title("Akage no Ann")
     st.write("Escrever sobre  aqui.")
     
