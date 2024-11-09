@@ -14,7 +14,7 @@ st.set_page_config(
 
 st.title("Olá!")
 st.write("Seja muito bem-vindo, ou vinda, ao meu site pessoal de recomendações de animes. Este site está sendo produzido para resguardar a criadora de recuperações e possíveis DPs. Espero que goste!")
-st.image(image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.1WDt6OUfRe3ghTwloclaJgHaFj%26pid%3DApi&f=1&ipt=c64fac50203b649d165abc8a8cb0224cb413b58117e090a215da26bc3a09717e&ipo=images", 
+st.image(image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.1WDt6OUfRe3ghTwloclaJgHaFj%26pid%3DApi&f=1&ipt=c64fac50203b649d165abc8a8cb0224cb413b58117e090a215da26bc3a09717e&ipo=images", width=1000)
 
 def teste_1():
     st.title("Teste 1")
