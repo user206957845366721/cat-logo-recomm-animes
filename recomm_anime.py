@@ -17,4 +17,4 @@ st.write("Seja muito bem-vindo, ou vinda, ao meu site pessoal de recomendações
 st.sidebar.success("Select a page above.")
 
 st.navigation(pages, position="sidebar", expanded=False)
-st.Page(page='Page1.py', title=None, icon=None, url_path='https://github.com/user206957845366721/cat-logo-recomm-animes/blob/main/Page1.py', default=False)
+st.Page(page='Page1.py', title="Page1", icon=None, url_path='https://github.com/user206957845366721/cat-logo-recomm-animes/blob/main/Page1.py', default=False)
