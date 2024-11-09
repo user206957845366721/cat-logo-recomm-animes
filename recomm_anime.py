@@ -29,10 +29,10 @@ def contact_page():
     st.title("Contact Page")
     st.write("This is the contact page.")
 
-page = st.sidebar.selectbox("Select a page", ["Home", "About", "Contact"])
+page = st.sidebar.selectbox("Select a page", ["One Piece", "About", "Contact"])
 
-if page == "Home":
-    home_page()
+if page == "One Piece":
+    one_piece()
 elif page == "About":
     about_page()
 elif page == "Contact":
