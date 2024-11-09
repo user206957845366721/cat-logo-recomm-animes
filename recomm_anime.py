@@ -23,6 +23,7 @@ def one_piece():
     stars = full_stars + empty_stars
     st.title("One Piece")
     st.image(image="one-piece.jpg", width=None)
+    st.write(stars)
     st.write("Escrever sobre one piece aqui.")
 
 def about_page():
