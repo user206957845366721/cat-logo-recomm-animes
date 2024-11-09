@@ -21,53 +21,38 @@ empty_stars = "⭕" * (5 - rating)
 stars = full_stars + empty_stars
 
 def one_piece():
-    rating=
+    rating= 5
     st.title("One Piece")
     st.write(stars)
     st.image(image="one-piece.jpg", width=None)
     st.write("Escrever sobre one piece aqui.")
 
 def megami_sama():
-    rating=
+    rating= 5
     st.title("A! Megami Sama!")
     st.write(stars)
     st.image("megamisama.png", width=None)
     st.write("Escrever sobre  aqui.")
 
-def teste_1():
-    st.title("Teste 1")
-    st.write("Wraughthrrjjrbf")
+def taihou_shichauzo():
+    rating= 5
+    st.image(image="taihou-shichauzo.jpg", width=None)
+    st.title("Taihou Shichauzo/You're Under Arrest!")
+    st.write("Escrever sobre  aqui.")
 
-def teste_2():
-    st.title("Teste 2")
-    st.write("This is the teste2.")
+def akage_ann():
+    rating= 5
+    st.image(image="akage-no-ann.jpg", use _column_width='auto')
+    st.title("Akage no Ann")
+    st.write("Escrever sobre  aqui.")
+    
+page = st.sidebar.selectbox("De qual anime você quer ler sobre?", ["One Piece", "A! Megami Sama!", "Taihou Shichauzo/You're Under Arrest!", "Akage no Ann"])
 
-def teste_1():
-    st.title("Teste 1")
-    st.write("Wraughthrrjjrbf")
-
-def teste_1():
-    st.title("Teste 1")
-    st.write("Wraughthrrjjrbf")
-
-def teste_1():
-    st.title("Teste 1")
-    st.write("Wraughthrrjjrbf")
-
-def teste_1():
-    st.title("Teste 1")
-    st.write("Wraughthrrjjrbf")
-
-def teste_1():
-    st.title("Teste 1")
-    st.write("Wraughthrrjjrbf")
-
-def teste_1():
-    st.title("Teste 1")
-    st.write("Wraughthrrjjrbf")
-page = st.sidebar.selectbox("De qual anime você quer ler sobre?", ["Teste 1", "Teste 2"])
-
-if page == "Teste 1":
-    teste_1()
-elif page == "Teste 2":
-    teste_2()
+if page == "One Piece":
+    one_piece()
+elif page == "A! Megami Sama!":
+    megami_sama()
+elif page == "Taihou Shichauzo/You're Under Arrest!":
+    taihou_shichauzo()
+elif page == "Akage no Ann":
+    akage_ann()
