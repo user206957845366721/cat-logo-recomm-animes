@@ -19,5 +19,5 @@ st.sidebar.success("Select a page above.")
 def page_1():
     st.title("Page 1")
 
-pg = st.navigation([st.Page("Page1.py"),
+pg = st.navigation([st.Page("Page1.py")],
 pg.run()
