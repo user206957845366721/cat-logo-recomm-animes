@@ -52,7 +52,7 @@ def akage_ann():
     empty_stars = "⭕" * (5 - rating)
     stars = full_stars + empty_stars
     st.title("Akage no Ann")
-    st.image(image="akage-no-ann.jpg", width=900)
+    st.image(image="akage-no-ann.jpg", width=800)
     st.write(stars)
     st.write("Escrever sobre akage aqui.")
 
