@@ -20,7 +20,7 @@ def teste_1():
     st.title("Teste 1")
     st.write("Wraughthrrjjrbf")
 
-def ateste_2():
+def teste_2():
     st.title("Teste 2")
     st.write("This is the teste2.")
 page = st.sidebar.selectbox("De qual anime você quer ler sobre?", ["Teste 1", "Teste 2"])
