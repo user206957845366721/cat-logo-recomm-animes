@@ -9,7 +9,7 @@ st.set_page_config(
         'Get Help': 'https://www.extremelycoolapp.com/help',
         'Report a bug': "https://www.extremelycoolapp.com/bug",
         'About': "# This is a header. This is an *extremely* cool app!"
-        'Get Help': 'https://www.extremelycoolapp.com/help',
+        'Get Help': 'https://github.com/user206957845366721',
     }
 )
 
